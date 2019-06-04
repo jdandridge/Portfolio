@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+	<div class="wrapper">
+		<div class="thin-bar"></div>
+
+		<!-- About Section-->
+		{% include "about.html" %}
+
+		<!-- Experience Section-->
+		{% include "experience.html" %}
+
+		<!-- Work Section-->
+		{% include "work.html" %}
+
+		<!-- Learning Section-->
+		{% include "learning.html" %}
+
+		<!-- FooterCTA Section-->
+		{% include "footercta.html" %}
+
+		<!-- Footer Section-->
+		{% include "footer.html" %}
+
+	</div>
+
+{% endblock content %}
