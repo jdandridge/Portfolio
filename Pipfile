@@ -11,6 +11,6 @@ python_version = "3.6"
 django-heroku = "*"
 gunicorn = "*"
 requests = "*"
-django = "==2.2.2"
+django = "==2.2.4"
 
 [dev-packages]
